@@ -1,0 +1,182 @@
+body {
+    background-color: rgb(85, 85, 85);
+    margin: 0 auto;   
+}
+
+#wrap {
+    background-color: #1A1A1A;
+    color: white;
+    width: 1300px;
+    height: 4150px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#header {
+    background-color: #5d0000;
+    width: 1300px;
+    height: 200px;
+    text-align: center;
+    margin-top: 0;
+    text-align: center;
+    position: fixed;
+    transition: background-color 0.5s ease;
+}
+
+#logo {
+    height: 150px;
+    margin: 0;
+}
+
+#header:hover {
+    background-color: rgba(92, 0, 0, 0.4)
+}
+
+li {
+    display: inline;
+    padding: 0 15px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    color:#810000;
+}
+#logo {
+    padding: 15px 0 10px 0;
+}
+#introduce{
+margin-top: 200px;
+}
+#groupphoto {
+    margin: 15px 30px 0 25px;
+}
+table {
+    width: 700px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+.background {
+    background-color: #810000;
+    color: white;
+    text-align: center; 
+}
+#gallery{
+    clear: both; 
+    text-align: center; 
+    margin-top: 50px;
+}
+#review{
+    margin-bottom: 250px;
+}
+#emoji1{
+    float: left;
+    margin-top: 25px;
+    margin-left: 120px;
+    margin-right: 20px;
+}
+#Stagereview{
+    margin: 0;
+    float: left;
+}
+#emoji2{
+    float: right;
+    margin-top: 90px;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+#charmingpoint{
+    float: right;
+    margin-bottom: 100px;
+}
+#songrecommendation{
+    margin-top: 300px;
+    clear: both; 
+    text-align: center;
+}
+#Highlight{
+    margin-left: 35px;
+    float: left;
+}
+#HiBully{
+    float: left;
+    margin-left: 10px;
+}
+#nightview{
+    margin-left: 10px;
+    float: left;
+    
+}
+#ShutDown{
+    float: left;
+    margin-left: 10px;
+    margin-right: 35px;
+}
+.songtitle{
+    text-align: center; 
+    background-color: #be0000b7;
+    width: 300px;
+    height: 40px;
+}
+.detail{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center; 
+    background-color: #3c0000;
+    width: 300px;
+    height: 530px;
+}
+.albumcover{
+    margin-top: 15px;
+}
+h1{
+    background-color: #a10000;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 150px;
+}
+#review h3{
+    background-color: #810000;
+    text-align: center; 
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+#introduce h1{
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+#songrecommendation h1{
+        margin-top: 150px;
+}
+#albumcover dd{
+    margin-bottom: 125px;
+}
+#SIDEMENU{
+    clear: both;
+    float: right;
+    margin: 0 80px 0 0 ;
+    padding: 0;
+    position:absolute;
+    top: 0px;
+    right: 0px;
+}
+#SIDEMENU img{
+	width: 100px;
+	transition:transform 0.5s ease;
+}
+#SIDEMENU img:hover{
+	transform:scale(1.2);
+}
+audio{
+    margin-top: 15px;
+    width: 250px;
+}

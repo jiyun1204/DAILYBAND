@@ -1,0 +1,96 @@
+body {
+	background-color: #FFCD4A;
+	margin: 0 auto;
+	
+}
+#wrap {
+	background-color: #ddd;
+	width: 1200px;
+	height: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#header {
+	background-color: rgb(255, 136, 77);
+	width: 1200px;
+	height: 200px;
+	text-align: center;
+	margin-top: 0;
+}
+#logo {
+	height: 150px;
+}	
+li {
+	margin: 0 15px 0 0;
+    display: inline;
+	float: right;
+	text-align:right;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	background-color: #FF884D;
+	height: 25px;
+}
+#menu a{
+	color: white;
+}
+#menu a:hover{
+	color: #FF0000;
+}
+#soran {
+	background-image: url(img/soran/groupphoto.png);
+	width: 590px;
+	height: 590px;
+	margin-bottom: 15px;	
+	float: left;
+}
+#lucy {
+	background-image: url(img/lucy/maingroupphoto.png);
+	width: 590px;
+	height: 590px;
+	margin-bottom: 15px;
+	float: right;
+}
+
+#owalloil {
+	background-image: url(img/owalloil/maingroupphoto.png);
+	width: 387px;
+	height: 387px;
+	margin-right: 19.5px;
+	float: left;
+}
+
+#Touched {
+	background-image: url(img/Touched/maingroupphoto.png);
+	width: 387px;
+	height: 387px;
+	margin-right: 19.5px;
+	float: left;
+}
+#ydbband {
+	background-image: url(img/ydbband/maingroupphoto.png);
+	width: 387px;
+	height: 387px;
+	float: left;
+}
+a {
+    display: block;
+    width: 100%;
+    height: 100%;
+	transition:transform 0.5s ease;
+}
+a:hover {
+	transform:scale(1.2);
+}
+#top{
+	position:fixed;
+	bottom: 90px;
+	right: 170px;
+}
+#under{
+	position:fixed;
+	bottom: 5px;
+	right: 170px;
+}
+

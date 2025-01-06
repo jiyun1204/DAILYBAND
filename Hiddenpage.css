@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(230, 230, 230);
+    margin: 0 auto;   
+}
+#wrap {
+    background-color: #eadcf8;
+    width: 1300px;
+    height: 1450px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#header {
+    background-color: #E0BFE6;
+    width: 1300px;
+    height: 200px;
+    margin-top: 0;
+    text-align: center;
+    position: fixed;
+    transition: background-color 0.5s ease;
+}
+#logo {
+    height: 150px;
+    margin: 0;
+}
+li {
+    display: inline;
+    padding: 0 15px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover {
+    color: #8000ff;
+}
+#logo {
+    padding: 15px 0 10px 0;
+}
+#congratulatorymessage{
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 0;
+    margin-right: 0;
+}
+h3{
+    border-bottom: #333 1px dashed;
+    padding-bottom: 10px;
+}
+#playlist{
+    background-color: #a86de3;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}
+#playlist h3{
+    margin: 0 auto;
+    text-align: center
+}
+#playlist h1{
+    background-color: #8000ff;
+    margin: 0 auto;
+    text-align: center
+}
+form{
+    margin: 0 auto;
+    text-align: center;
+    width: 900px;
+}
+#maker{
+    text-align: center;
+}
+#SIDEMENU{
+    clear: both;
+    float: right;
+    margin: 0 80px 0 0 ;
+    padding: 0;
+    position:absolute;
+    top: 0px;
+    right: 0px;
+}
+#SIDEMENU img{
+	width: 100px;
+	transition:transform 0.5s ease;
+}
+#SIDEMENU img:hover{
+	transform:scale(1.2);
+}
